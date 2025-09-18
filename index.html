@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JavaScript Interactive Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Web Experience</h1>
+        <p>Combining CSS animations with JavaScript functionality</p>
+    </header>
+
+    <main>
+        <!-- Part 1: CSS Animations -->
+        <section id="css-animations">
+            <h2>CSS Animations</h2>
+            
+            <div class="animation-demo">
+                <h3>Button Hover Effects</h3>
+                <button class="btn-hover">Hover Me</button>
+                <button class="btn-pulse">Pulse Effect</button>
+                <button class="btn-fill">Fill Effect</button>
+            </div>
+            
+            <div class="animation-demo">
+                <h3>Continuous Animations</h3>
+                <div class="spinner"></div>
+                <div class="bouncing-ball"></div>
+                <div class="pulse-circle"></div>
+            </div>
+            
+            <div class="animation-demo">
+                <h3>Transform Animations</h3>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>Front Side</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Back Side</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 2 & 3: JavaScript Interactions -->
+        <section id="js-interactions">
+            <h2>JavaScript Interactions</h2>
+            
+            <div class="interaction-demo">
+                <h3>Animation Controller</h3>
+                <div class="animated-box" id="js-controlled-box"></div>
+                <div class="controls">
+                    <button id="start-animation">Start Animation</button>
+                    <button id="stop-animation">Stop Animation</button>
+                    <button id="change-color">Change Color</button>
+                </div>
+            </div>
+            
+            <div class="interaction-demo">
+                <h3>Calculator Functions</h3>
+                <div class="calculator">
+                    <input type="number" id="num1" placeholder="Enter first number">
+                    <input type="number" id="num2" placeholder="Enter second number">
+                    <div class="calc-buttons">
+                        <button id="add-numbers">Add</button>
+                        <button id="multiply-numbers">Multiply</button>
+                    </div>
+                    <p id="calc-result">Result: </p>
+                </div>
+            </div>
+            
+            <div class="interaction-demo">
+                <h3>Popup Modal</h3>
+                <button id="open-modal">Open Modal</button>
+                <div class="modal" id="demo-modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h3>Welcome to the Modal!</h3>
+                        <p>This modal appears with a smooth CSS animation triggered by JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Interactive Web Page Assignment - CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
